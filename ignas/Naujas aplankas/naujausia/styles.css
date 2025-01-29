@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #FFFFFF
+    
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color:#E7852B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .hero-image img {
+    width: 1150px;
+    border-radius: 10px;
+  }
+  
+  .description {
+    text-align: center;
+    padding: 20px;
+    background-color: #E7852B;
+  }
+  
+  .car-listing {
+    padding: 40px 80px;
+  }
+  
+  .car-listing h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .car h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .car-buttons button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .footer-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #ddd;
+  }
+  .hero-image{width: 1077px;
+    height: 667px;
+    }
+  

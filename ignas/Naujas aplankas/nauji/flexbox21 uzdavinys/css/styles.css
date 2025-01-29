@@ -1,0 +1,17 @@
+.flex{display: flex;}
+header{background-color: black;}
+header h1{color: white;}
+header nav ul{color: white;
+cursor: pointer;
+list-style: none;
+}
+header{justify-content: space-between;}
+header nav ul li{margin: 5px;}
+.pagrindinis{background-color: greenyellow;}
+.pav{padding-left: 50%;
+padding;}
+
+
+
+
+

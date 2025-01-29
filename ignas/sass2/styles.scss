@@ -1,0 +1,84 @@
+@import 'colors';
+
+.flex-container {
+    display: flex;
+  }
+  
+  header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: $HeaderBgColor;
+  
+    h1 {
+      padding: 15px;
+    }
+  
+    nav {
+      ul {
+        li {
+          list-style: none;
+          margin-left: 10px;
+          padding: 5px;
+  
+          a {
+            cursor: pointer;
+            color: $HeaderNavColor;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  .banner-col-1 {
+    background-color: $BannerBg1Color;
+    color: $BannerSymbolColor;
+    text-align: center;
+    justify-content: center;
+  
+    p {
+      padding: 15px;
+    }
+  }
+  
+  .banner-col-2 {
+    background-color: $BannerBg2Color;
+    color: $BannerSymbolColor;
+    justify-content: space-evenly;
+  
+    p {
+      padding: 0 20px;
+    }
+  }
+  
+  footer {
+    align-items: center;
+    justify-content: space-between;
+    background-color: $FooterBgColor;
+    padding: 20px 0;
+  
+    p {
+      padding: 15px;
+    }
+  }
+  
+  .banner-col-2,
+  footer {
+    align-items: center;
+  }
+  
+  main {
+    background-color: $MainBgColor;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 25%;
+    background-color: $CardBgColor;
+    margin: 10px;
+    padding: 30px 20px;
+    border: 1px solid $CardBorderColor;
+  }
+  

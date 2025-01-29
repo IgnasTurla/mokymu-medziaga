@@ -1,0 +1,17 @@
+/* Pagrindinis linijos stilius */
+.linija {
+    padding: 10px;
+    margin-top: 10px;
+    color: white; /* Teksto spalva */
+    
+}
+
+/* Lyginio skaičiaus linijos stilius */
+.lyginis {
+    background-color: green; /* Žalias fonas */
+}
+
+/* Nelyginio skaičiaus linijos stilius */
+.nelyginis {
+    background-color: red; /* Raudonas fonas */
+}

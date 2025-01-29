@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: green;">
+    mano pirmas java
+    <!--inline-->
+    <button onclick="console.log('labas')">
+click me
+
+    </button>
+<div id="content"></div>
+
+
+     <!--internal-->
+    <script>  
+    document.getElementById('content').innerHTML = '<p>naujas contentas</p>'
+document.write('write isvedimas')
+document.write('write isvedimas2')
+document.writeln('ln pvz')
+
+    console.log('+++++++++++++++');  
+     console.log('pirmas ' + 'antras');
+        console.error('pvz');
+        console.log('mano pirmas java scriptas');
+        console.log('antra eilute');
+        console.log('+++++++++++++++');  
+
+        alert('default alert js')
+    </script>
+    <!--external-->
+    <script src="scripts.js"></script>
+</body>
+</html>

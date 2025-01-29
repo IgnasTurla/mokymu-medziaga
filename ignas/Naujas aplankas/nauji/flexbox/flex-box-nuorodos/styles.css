@@ -1,0 +1,41 @@
+.flex{display: flex;}
+
+header{background-color: #ffe4c4;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;}
+
+header, h2{padding: 15px;}
+
+header nav ul li {list-style: none;
+margin-left: 10px;
+padding: 5px;}
+
+header nav ul a {color: #8a2be2;
+    cursor: pointer;
+    text-decoration: underline;}
+    
+.banner1{text-align: center;
+    background-color: blue;
+color: white;}
+
+.banner1 p{padding: 15px;}
+
+.banner2{text-align: center;
+    background-color: blue;
+color: white;}
+
+.flex, .banner2 p{padding: 15px;
+justify-content: space-evenly;
+align-items: center;}
+
+.blokas
+{border: 1px solid #d0cdcd;
+padding: 20px 20px;
+margin: 10px;
+width: 25%;}
+
+main {flex-wrap : wrap;
+justify-content: space-between;}
+
+footer{background-color: #deb887;}

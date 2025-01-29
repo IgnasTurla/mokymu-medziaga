@@ -1,0 +1,417 @@
+/* GENERAL */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 112px 0;
+}
+
+section .section-header {
+    text-align: center;
+}
+
+section .section-header p {
+    width: 100%;
+    max-width: 648px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section .section-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 25px;
+    color: #404445;
+}
+
+p {
+    color: #5F6B81;
+    font-size: 18px;
+}
+
+h3 {
+    color: #404445;
+    font-size: 22px;
+    line-height: 25.78px;
+}
+
+.icon {
+    color: #49C0FC;
+    font-size: 40px;
+}
+
+/* NAV */
+nav.navbar {
+    padding: 20px 0;
+}
+
+nav .navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #878B9B;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #404445;
+}
+
+nav .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+nav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+nav .navbar-nav .nav-item .active,
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #43C45F;
+}
+
+/* header */
+header {
+    padding-top: 300px;
+    height: calc(100vh - 80px);
+    background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5)), url('../img/header-bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+header .row .green-btn {
+    background: #43C45F;
+    color: #ffffff;
+}
+
+header .row h1 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 82px;
+    color: #ffffff
+}
+
+header .row p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(213, 215, 216, 1);
+    margin-bottom: 50px;
+}
+
+/* sections */
+/* general info */
+.general-info-first .info-block {
+    margin-top: 50px;
+}
+
+
+
+.general-info-first .text-col h3 {
+    font-weight: 500;
+    text-align: left;
+    margin: 18px 0 10px;
+}
+
+.general-info-first .text-col p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.35px;
+    text-align: left;
+    color: #5F6B81;
+    margin-bottom: 0;
+}
+
+.video {
+    background: #F1F8FF;
+}
+
+.video .video-col {
+    margin-top: 54px;
+}
+
+.video .video-col .video-wrapper {
+    position: relative;
+    padding-bottom: 50%;
+    height: 100%;
+}
+
+.video .video-col .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px
+}
+
+.general-info-second .first p:last-child {
+    margin-bottom: 53px;
+}
+
+.general-info-second .first p {
+    font-size: 22px;
+    line-height: 27.98px;
+    text-align: left;
+    color: #404445;
+    margin-bottom: 28px;
+}
+
+.general-info-second .first p:last-child {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50.88px;
+    max-width: 672px;
+    width: 100%;
+}
+
+.general-info-second .second .info-block p:last-child {
+    margin-bottom: 0;
+}
+
+.general-info-second hr {
+    border-top: solid #D8D8D8 1px;
+    margin: 0;
+    margin-bottom: 52px;
+}
+
+.general-info-second .second {
+    text-align: left;
+}
+
+.general-info-second .second p:first-of-type {
+    margin: 20px 0 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31.8px;
+    color: #404445;
+}
+
+.general-info-second .second p {
+    font-weight: 500;
+    line-height: 22.89px;
+    color: #5F6B81;
+}
+
+.work-info {
+    background-color: #F1F8FF;
+}
+.work-info .work-block h1{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+
+    .work-info .work-block p{
+        font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ }
+.work-info .container img{
+    width: 100%;
+height: 65%;
+object-fit: cover;
+}
+.work-info .container .section-header .work-block h1{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 50%;
+}
+.work-info .container .section-header p{
+    padding-bottom: 60px;
+}
+.work-info .container .section-header h1{
+    padding-bottom: 50px;
+}
+.subscribe-info .input-group input{
+    max-width: 340px;
+    padding: 15px 0 15px 25px;
+}
+.subscribe-info h1{
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 46.88px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.subscribe-info p{
+    padding-bottom: 60px;
+    color: #ffffff;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.89px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.subscribe-info  button{
+    background-color: #43C45F;
+    color: #ffffff;
+}
+.subscribe-info{
+    background-color: #5F6B81;
+}
+.subscribe-info .form-control::placeholder{
+    color: #D8D8D8;
+}
+.team-info .comand-container-images h1{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 200;
+line-height: 25.78px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #EEEEEE;
+padding: 25px 0 5px 0;
+
+}
+.team-info .comand-container-images p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #EEEEEE;
+padding-bottom: 25px;
+}
+.comand-container h1{padding-bottom: 35px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+.comand-container p{padding-bottom: 80px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+    .team-info .comand-container-images{
+        padding-bottom: 100px;
+    }
+    .container-second-last .second-last h1{
+        font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 46.88px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-bottom: 40px;
+ }
+ .container-second-last .second-last p{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.89px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-bottom: 40px;
+ }
+ .container-second-last .second-last button{
+    background-color: #43C45F;
+    color: #ffffff;
+    border: none;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+letter-spacing: 1px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 191px;
+height: 47px;
+ }
+ .container-second-last .second-last button:hover{
+  background-color: #43c45f63;
+ }
+ .container-second-last{padding: 0 0 150px 0;}
+ .linija{background-color: #D8D8D8;}
+footer{background-color: #2F323B;}
+footer .paskutinis{
+    background-color: #2A2D36;
+    padding: 25px 0 25px 80px
+}
+footer .contact-info{
+    padding: 100px 150px 55px 40px;
+}
+footer hr{border: 1px solid #707070}
+footer .paskutinis p{
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+footer .row:first-child div:first-child h3{
+    padding-bottom: 30px;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.47px;
+letter-spacing: 1px;
+color: #ffffff;
+}
+footer .row:first-child div:first-child{
+    width: 13%;
+    margin-right: 120px;
+}
+footer .row:first-child div:last-child p{
+ color: #ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+}
+footer .row:first-child div:last-child p:first-child{
+   text-transform: uppercase;
+   margin-bottom: 40px;
+   }
+   footer .row:first-child div:not(:first-child) p:first-child{
+    color: #ffffff;
+    text-transform: uppercase;
+   margin-bottom: 40px;
+   }
+   footer .row:first-child div:nth-child(3){
+    width: 15%;
+    margin-right: 120px;
+   }
+   footer .row:first-child div:nth-child(2){
+    width: 15%;
+    margin-right: 80px;
+   }
+   footer .row:first-child div:nth-child(3) span{
+    color: #ffffff;
+   }
+
+
+

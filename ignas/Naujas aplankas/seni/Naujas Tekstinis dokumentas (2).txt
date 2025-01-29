@@ -1,0 +1,18 @@
+Gediminas Ven  to  Everyone 21:20
+@Povilas Jankauskas  https://www.freecodecamp.org/  jei laiko bus HTML ir CSS, paaiskina step by step, gali pagelbet geriau suprast ka darai zingsnis po zingsnio
+
+Gediminas Ven  to  Everyone 21:20
+https://roadmap.sh/frontend
+
+Denis Teles  to  Everyone 21:21
+As irgi naudojau freecodecamp daug informacijos ten rasi
+
+Denis Teles  to  Everyone 21:21
+w3school irgi geras
+
+Denis Teles 22:04
+  <div class="gallery-images">
+                <div class="image-box">100 x 100</div>
+                <div class="image-box">100 x 100</div>
+                <div class="image-box">100 x 100</div>
+            </div>

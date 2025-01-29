@@ -1,0 +1,479 @@
+body{max-width: 1440px;}
+/******** Header ********/
+
+/* Header-Banner*/
+
+header .header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #211C24;
+}
+header .header-banner div p:first-child{
+    font-family: Inter;
+font-size: 25px;
+font-weight: 550;
+color: #909090;
+}
+header .header-banner div p:nth-child(2) a{
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 100;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+ }
+ header .header-banner div p:nth-child(2) span{
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+ }
+ header .header-banner div p:nth-child(3){
+    font-family: Inter;
+font-size: 18px;
+font-weight: 450;
+color: #909090;
+ }
+ header .header-banner button{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+ color: #ffffff;
+ background-color: transparent;
+ border-color: #ffffff;
+ padding: 16px 56px 16px 56px;
+ border-radius: 6px;
+ margin-top: 20px;
+ }
+ header .header-banner button:hover{
+    background-color: #a08e8e;
+ }
+ header .header-banner .text{
+    margin-left: 150px;
+ }
+
+header .header-small-banner .banner-ps img{   
+width: 25%;
+}
+header .header-small-banner .banner-ps{
+   display: flex;
+}
+/* header-Mazesnis Baneris */
+header .product-section .playstation img{
+    width: 50%;
+}
+header .product-section .playstation{
+    padding-left: 0;
+    padding-right: 0;
+}
+header .product-section .playstation div{
+width: 50%;
+}
+header .product-section .Apple-AirPods{
+    background-color: #EDEDED;
+}
+header .product-section .Apple-Vision{
+    background-color: #353535;
+}
+header .product-section .Macbook-Air{
+    background-color: #EDEDED;
+}
+header .product-section{
+    margin-left: 0;
+}
+header .product-section .playstation {
+    margin-left: 0;
+}
+header .product-section .mg-0{
+    margin-left: 0;
+}
+header .product-section .product-section-container-first{
+    padding-left: 0;
+    padding-right: 0;
+}
+header .product-section .Macbook-Air{
+    padding-left: 0;
+    padding-right: 0;
+}
+header .product-section .playstation h1{
+    font-family: Inter;
+font-size: 49px;
+font-weight: 500;
+}
+header .product-section .playstation p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+color: #909090;
+}
+header .product-section .Apple-AirPods h1{
+    font-family: Inter;
+font-size: 29px;
+font-weight: 300;
+}
+header .product-section .Apple-AirPods h1 span{
+    font-family: Inter;
+font-size: 29px;
+font-weight: 500;
+}
+header .product-section .Apple-AirPods p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+color: #909090;
+}
+header .product-section .Apple-Vision h1{
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 200;
+color: #ffffff;
+}
+header .product-section .Apple-Vision h1 span{
+    font-family: Inter;
+font-size: 29px;
+font-weight: 500;
+}
+header .product-section .Apple-Vision p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+color: #909090;
+}
+header .product-section .Macbook-Air h1{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 100;
+padding-bottom: 10px;
+}
+header .product-section .Macbook-Air h1 span{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 500;
+}
+header .product-section .Macbook-Air p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+color: #909090;
+padding-bottom: 10px;
+}
+header .product-section .Macbook-Air button{
+    background-color: transparent;
+   border-radius: 6px;
+  padding: 16px 56px 16px 56px;
+gap: 8px;
+}
+header .product-section .Macbook-Air button:hover{
+    background-color: #a08e8e;
+}
+
+header .product-section .Macbook-Air button a{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+header .product-section .Macbook-Air div{
+    padding-left: 50px;
+}
+
+/******** Main ********/
+
+/* main-navigation */
+main .main-navigation-buttons div ul li{
+    list-style: none;
+}
+
+main .main-navigation-buttons div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 70px;
+}
+
+main .main-navigation-buttons div ul li img{
+    width: 95%;
+    border-radius: 15px;
+}
+main .main-navigation-text{
+    display: flex;
+    justify-content: space-between;
+    padding:40px 0 40px 0;
+}
+main .main-navigation-text span{
+    margin:0 105px 0 0;
+    font-size: 24px;
+    letter-spacing: 15px;
+}
+main .main-navigation-text p{
+    margin:0 0 0 145px;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.01em;
+}
+
+main .main-navigation{
+    background-color: #FAFAFA;
+}
+/* main-new-arrival */
+
+/* Korteles */
+main .main-new-arrival{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+main .main-new-arrival{padding-bottom: 15px;}
+main .main-new-arrival .product-card{
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    width: 268px;
+    height: 432px;
+    padding-top:  50px;
+}
+main .main-new-arrival .product-card .bi-heart{
+    position: relative;  
+    top: -30px;           
+    left: -22px;
+    font-size: 30px;
+    color: #b9babb;
+}
+main .main-new-arrival .product-card .fa-heart{
+    position: relative;  
+    top: -30px;           
+    left: -22px;
+    
+}
+/* navigacija */
+main .main-new-arrival .main-new-arrival-nav{
+    display:flex;
+
+}
+main .main-new-arrival .main-new-arrival-nav ul li{
+    list-style: none;
+   display: inline;
+   margin-right: 20px;
+}
+main .main-new-arrival .main-new-arrival-nav .none a{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+color: #8B8B8B;
+
+}
+main .main-new-arrival .main-new-arrival-nav ul li:first-child{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+main .main-new-arrival .product-card h5{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+padding-top: 20px;
+}
+main .main-new-arrival .product-card .price{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+padding-bottom: 10px;
+}
+main .main-new-arrival .product-card button{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+ 
+}
+/* Main-Products */
+main .main-products .col-lg-3{
+    padding-bottom: 50px;
+}
+main .main-products  img{
+    width: 360px;
+    height: 345px;
+}
+main .main-products  h5{
+    font-family: Inter;
+font-size: 30px;
+font-weight: 300;
+margin-left: 20px;
+padding-bottom: 15px;
+}
+main .main-products  p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+margin-left: 20px;
+padding-bottom: 10px;
+}
+main .main-products button:hover{
+    background-color: #a08e8e;
+}
+
+main .main-products button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 16px 55px 15px 55px;
+    margin: 10px 0 20px 20px;
+    
+}
+main .main-products .product-card-first{
+background-color: #ffffff;
+}
+
+main .main-products .product-card-two{
+    background-color: #F9F9F9;
+}
+
+main .main-products .product-card-three{
+    background-color: #EAEAEA;
+}
+
+main .main-products .product-card-four{
+    background-color:#2C2C2C;
+}
+main .main-products .product-card-four h5{
+    color: #ffffff;
+}
+main .main-products .product-card-four button{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+main .main-products p{
+    color: #909090;
+}
+main .main-products .col-lg-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+main .main-products{
+    padding-top: 30px;
+}
+/* Main-Discount */
+main .main-discount{
+   padding: 20px 150px 100px 150px;
+}
+main .main-discount .main-discount-text{
+    padding-bottom: 20px;
+}
+main .main-discount .main-discount-text a{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+main .main-discount .product-card{
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    padding: 30px 0 25px 0;
+}
+main .main-discount .product-card h5{
+    font-family: Inter;
+font-size: 13px;
+font-weight: 500;
+}
+main .main-discount .product-card .price{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+main .main-discount .product-card .bi-heart{
+    position: relative;  
+    top: -10px;           
+    left: -16px;
+    font-size: 20px;
+    color:#b9babb
+}
+
+
+/******** Footer ********/
+
+/* footer-banner */
+footer .footer-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-banner .text-white{
+    font-family: Inter;
+font-size: 72px;
+font-weight: 1;
+color: #ffffff;
+}
+footer .footer-banner .sale{
+    font-family: Inter;
+font-size: 72px;
+font-weight: 500;
+color: #ffffff;
+padding-left: 10px;
+}
+footer .footer-banner .text{
+    color: #787878;
+    margin-left: 50px;
+}
+body footer .container .footer-banner{
+    background-image: url('C:/Users/bekoi/Desktop/ignas/atsiskaitymo darbas/img/footer-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+height: 448px;
+}
+footer .footer-banner button:hover{
+    background-color: #a08e8e;
+}
+
+footer .footer-banner button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 16px 55px 15px 55px;
+    margin: 10px 0 20px 20px;
+    border-color: #ffffff;
+}
+footer .footer-banner button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* footer-navigation */
+
+footer .footer-navigation{
+    background-color: #000000;
+    padding: 100px 0 70px 130px;
+}
+
+footer .footer-navigation h3{
+    color: #ffffff;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+}
+
+footer .footer-navigation p{
+    color: #CFCFCF;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+footer .footer-navigation img{
+    padding-top: 20px;
+}
+footer .footer-navigation p a{
+    text-decoration: none;
+}
+
+
+

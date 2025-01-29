@@ -1,0 +1,39 @@
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;  /* Užtikrina, kad img užims visą tėvų konteinerį */
+}
+
+.img-container {
+    width: 376px;
+    margin-right: 20px;  /* Tarpai tarp div'ų */
+    /* Bendras rėmas aplink visą div */
+    display: inline-block;  /* Užtikrina, kad div'ai bus eilutėje */
+    vertical-align: top;  /* Užtikrina, kad div'ai būtų ant viršaus */
+}
+
+a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     /* Perkelia į naują eilutę */
+    margin-top: 10px;  /* Tarpas viršuje */
+}
+
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+      /* Perkelia į naują eilutę */
+    margin-top: 10px;  /* Tarpas viršuje */
+}
+#block1{border: 2px solid black;  }
+#block2{border: 2px solid black;  }
+#block3{border: 2px solid black;  }
+#block4{border: 2px solid black;  }

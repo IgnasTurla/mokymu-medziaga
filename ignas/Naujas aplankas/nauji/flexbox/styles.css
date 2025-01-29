@@ -1,0 +1,24 @@
+div{display: flex;
+    align-items: center ;
+    padding: 0 20px;}
+    
+    
+    
+    
+    .pirmas-blokas, .trecias-blokas {
+    background-color: orange;}
+    .antras-blokas, .ketvirtas-blokas {
+        background-color: red;}
+        .antras-blokas p{background-color: white;
+        margin: 15px;}
+      .trecias-blokas {
+    justify-content: center;}
+     .trecias-blokas p{background-color: white;
+    padding: 15px;
+    width: 30%;
+    flex: 1;
+align-self:stretch;}
+      .ketvirtas-blokas p{background-color: white;
+    margin: 15px;
+    padding: 15px;}
+    .ketvirtas-blokas{justify-content: space-between;}

@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$divClassName: 'sass-div';
+$cssRuleName: margin;
+
+div.#{$divClassName}{
+    color: red;
+    #{$cssRuleName}: 12px
+}
+
+body{
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+
+
+
+
+
+
+
+$redColor: #ff0000;
+
+
+
+
+h1 {
+    color: $redColor;
+}
