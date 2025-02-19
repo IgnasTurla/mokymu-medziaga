@@ -1,0 +1,19 @@
+{
+  "name": "mano-pirmas-npm-pvz",
+  "version": "1.0.0",
+  "description": "pirmasis npm bandymas",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "html"
+  ],
+  "author": "ignas",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

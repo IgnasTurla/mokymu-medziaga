@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main-container{
+    display: flex;
+}
+
+.colculate-conteiner {
+    background-color: black;
+   width: 100%;
+}
+
+body p {
+    color: #949494;
+    
+}
+
+body label {
+    color: #FFFFFF;
+}
+
+.pig img{
+    height: 100%;
+}
+
+.cash-input {
+    background-color: black;
+    color: white;
+    border: solid 1px grey;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+}
+
+#valiuta {
+    width: 145px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: solid 1px grey;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+#to-valiuta {
+    width: 343px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: solid 1px grey;
+    border-radius: 8px;
+   
+}
+
+#convert-button {
+    width: 256px;
+height: 53px;
+padding-top: 16px;
+padding-right: 8px;
+padding-bottom: 16px;
+padding-left: 8px;
+border-radius: 8px;
+}
+
+#convert-button:hover {
+    background-color: grey;
+}
+
+#back-button {
+    background-color: black; 
+    color: white; 
+    height: 44px; 
+    width: 205px; 
+    border-radius: 5px; 
+    margin-top: 15px; 
+    border: 2px solid white; 
+    font-weight: 700; 
+    font-size: 16px;
+}
+
+#back-button:hover {
+    background-color: grey;
+}
