@@ -1,0 +1,35 @@
+.containerProduct {
+    border: solid 2px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 140px;
+    margin: 15px 0;
+}
+
+.containerProductNames button {
+    margin-left: 390px;
+    margin-bottom: ;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.containerProduct button:hover {
+    background-color: grey;
+}
+
+.containerProductNames h4{
+   margin: 0 0 0 10px;
+   color: grey;
+   font-weight: 300;
+}
+
+
+
+
+

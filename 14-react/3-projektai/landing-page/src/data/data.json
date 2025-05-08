@@ -1,0 +1,267 @@
+{
+  "navigation": {
+    "title": "React landing page",
+    "navigationItems": [
+      "features",
+      "about",
+      "services",
+      "gallery",
+      "testimonials",
+      "team",
+      "contact"
+    ]
+  },
+  "header": {
+    "title": "we are  a landing page",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+    "button": "learn more"
+  },
+  "features": {
+    "title": "features",
+    "featuresItems": [
+      {
+        "icon": "SlBubbles",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlCallEnd",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlUser",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlWrench",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      }
+    ]
+  },
+  "about": {
+    "title": "about us",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, sed fugiat laboriosam, sit aliquid cum ducimus omnis maxime possimus autem quod voluptate ratione. Veniam provident tempore totam placeat! Quisquam, aperiam!",
+    "whyChooseUsTittle": "Why Choose Us?",
+    "whyChooseUsItems": [
+      "why choose use?",
+      "why choose use?",
+      "why choose use?",
+      "why choose use?",
+      "why choose use?",
+      "why choose use?",
+      "why choose use?",
+      "why choose use?"
+    ]
+  },
+  "services": {
+    "title": "our services",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh",
+    "servicesItems": [
+      {
+        "icon": "SlBubble",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlBasket",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlCamera",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlEarphones",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlScreenDesktop",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "icon": "SlTrophy",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "gallery",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "images": [
+      {
+        "id": 1,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      },
+      {
+        "id": 2,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/1023/896/855/500px-photography-landscape-wallpaper-preview.jpg"
+      },
+      {
+        "id": 3,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/1023/896/855/500px-photography-landscape-wallpaper-preview.jpg"
+      },
+      {
+        "id": 4,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/1023/896/855/500px-photography-landscape-wallpaper-preview.jpg"
+      },
+      {
+        "id": 5,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      },
+      {
+        "id": 6,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      },
+      {
+        "id": 7,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      },
+      {
+        "id": 8,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      },
+      {
+        "id": 9,
+        "title": "example",
+        "url": "https://c4.wallpaperflare.com/wallpaper/77/491/722/500px-landscape-photography-wallpaper-preview.jpg"
+      }
+    ]
+  },
+  "feedback": {
+    "title": "what our clients say",
+    "client": [
+      {
+        "id": 1,
+        "icon": "./public/01.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "id": 2,
+        "icon": "./public/02.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "id": 3,
+        "icon": "./public/03.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "id": 4,
+        "icon": "./public/04.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "id": 5,
+        "icon": "./public/05.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      },
+      {
+        "id": 6,
+        "icon": "./public/06.jpg",
+        "name": "Jonas Jonaitis",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum"
+      }
+    ]
+  },
+  "team": {
+    "title": "meet the team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus",
+    "members": [
+      {
+        "id": 1,
+        "image": "./public/01.jpg",
+        "name": "Jonas Jonaitis",
+        "role": "Director"
+      },
+      {
+        "id": 2,
+        "image": "./public/02.jpg",
+        "name": "Jonas Jonaitis",
+        "role": "Director"
+      },
+      {
+        "id": 3,
+        "image": "./public/03.jpg",
+        "name": "Jonas Jonaitis",
+        "role": "Director"
+      },
+      {
+        "id": 4,
+        "image": "./public/04.jpg",
+        "name": "Jonas Jonaitis",
+        "role": "Director"
+      }
+    ]
+  },
+  "contacts": {
+    "title": "get in touch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus",
+    "contactInfo": [
+      {
+        "icon": "SlBulb",
+        "property": "Address",
+        "value": "Vilnius Trakai 123"
+      },
+      {
+        "icon": "SlCallEnd",
+        "property": "Phone",
+        "value": "+37060857941"
+      },
+      {
+        "icon": "SlDrawer",
+        "property": "Email",
+        "value": "info@company.lt"
+      }
+    ],
+    "form": [
+      {
+        "type": "input",
+        "text": "Name"
+      },
+      {
+        "type": "input",
+        "text": "Email"
+      },
+      {
+        "type": "textarea",
+        "text": "Message"
+      },
+      {
+        "type": "button",
+        "text": "send message"
+      }
+    ],
+    "contactIcons": [
+      {
+        "icon": "FaFacebook"
+      },
+      {
+        "icon": "FaTwitter"
+      },
+      {
+        "icon": "FaYoutube"
+      }
+    ]
+  }
+}

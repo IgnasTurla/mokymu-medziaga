@@ -1,0 +1,36 @@
+.team-container {
+  background-color: white;
+  padding-top: 20px;
+
+  .team-title {
+    p {
+      text-align: center;
+    }
+  }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    margin-top: 100px;
+    .team-card {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .team-card-img {
+        justify-content: center;
+        display: flex;
+      }
+      .team-card-title {
+        text-align: center;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

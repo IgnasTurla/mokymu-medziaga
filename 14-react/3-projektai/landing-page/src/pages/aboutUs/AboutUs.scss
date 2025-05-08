@@ -1,0 +1,27 @@
+.about {
+  background-color: white;
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    width: 550px;
+    height: 450px;
+    margin: 100px 0 100px 0;
+  }
+  .about-info {
+    margin-top: 90px;
+
+    h1 {
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+    .about-info-bottom {
+      margin-top: 90px;
+    }
+    .about-info-bottom-text {
+      margin: 15px 0 0 30px;
+    }
+  }
+}

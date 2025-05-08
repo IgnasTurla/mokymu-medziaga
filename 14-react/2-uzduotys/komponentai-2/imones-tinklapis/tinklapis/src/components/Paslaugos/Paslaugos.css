@@ -1,0 +1,9 @@
+.paslaugos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paslaugos .paslaugos-component {
+    border: solid black 2px;
+    justify-content: space-between;
+}

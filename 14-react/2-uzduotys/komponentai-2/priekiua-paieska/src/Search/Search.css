@@ -1,0 +1,19 @@
+#search-input input{
+    padding: 5px 50px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    border-radius: 5px; 
+}
+
+#search-input button{
+   margin-right: 15px;
+   background-color: black;
+   color: white;
+   padding: 5px 30px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+#search-input button:hover {
+    background-color: grey;
+}

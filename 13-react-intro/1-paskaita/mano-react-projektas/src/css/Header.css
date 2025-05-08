@@ -1,0 +1,24 @@
+h1 {
+    color: brown;
+}
+
+.card button {
+    background: black;
+    color: white;
+  }
+  .card button:hover {
+    background: #ff004f;
+    color: white;
+  }
+  
+  .container nav ul li {
+    list-style: none;
+  }
+  
+  .container nav ul li a {
+    color: white;
+  }
+  
+  .container nav ul li a:hover {
+    color: #ff004f;
+  }

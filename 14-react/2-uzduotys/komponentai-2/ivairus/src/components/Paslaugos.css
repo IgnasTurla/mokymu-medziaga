@@ -1,0 +1,10 @@
+.paslaugos {
+    background: bisque;
+    border: solid black 2px;
+    color: brown;
+}
+
+.paslaugos-antraste {
+    background-color: darkmagenta;
+    color: white;
+}

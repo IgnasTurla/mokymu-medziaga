@@ -1,0 +1,78 @@
+body .hr {
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 2px;
+}
+
+body{
+    background-color: azure !important;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-button button {
+    margin-top: 50px;
+    background-color: blue;
+    color: white;
+    padding: 5px 50px 5px 50px;
+    border-radius: 15px;
+}
+
+.filter-button button:hover {
+    background-color: white;
+    color: black;
+}
+
+header h1 {
+  text-align: center;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-container {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 1px;
+}
+
+.dropdown-container p{
+color: white;
+}
+
+.main-project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.project-card {
+    border: solid 1px black;
+    width: 45%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+main h1 {
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+.project-card-tags {
+    display: flex;
+    gap: 15px;
+}
+
+.project-card-tags p{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+}
